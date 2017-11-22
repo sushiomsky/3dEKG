@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  ${PROJECT_NAME}
+  ~  Copyright (c) ${YEAR} Dennis Suchomsky <dennis.suchomsky@gmail.com>
+  ~
+  ~  This program is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  ~ **/
+  -->
+
+<resources>
+    <!-- 0x0403 / 0x6001: FTDI FT232R UART -->
+    <usb-device vendor-id="1027" product-id="24577" />
+
+    <!-- 0x0403 / 0x6015: FTDI FT231X -->
+    <usb-device vendor-id="1027" product-id="24597" />
+
+    <!-- 0x2341 / Arduino -->
+    <usb-device vendor-id="9025" />
+
+    <!-- 0x16C0 / 0x0483: Teensyduino  -->
+    <usb-device vendor-id="5824" product-id="1155" />
+
+    <!-- 0x10C4 / 0xEA60: CP210x UART Bridge -->
+    <usb-device vendor-id="4292" product-id="60000" />
+
+    <!-- 0x067B / 0x2303: Prolific PL2303 -->
+    <usb-device vendor-id="1659" product-id="8963" />
+
+    <!-- 0x1a86 / 0x7523: Qinheng CH340 -->
+    <usb-device vendor-id="6790" product-id="29987" />
+</resources>
